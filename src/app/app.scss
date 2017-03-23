@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // http://ionicframework.com/docs/v2/theming/
 // App Global Sass
 // --------------------------------------------------
@@ -14,23 +15,33 @@
 // automatically applied to the <body> element in the app.
 .toolbar-background-ios {
     background: #212121;
+=======
+.toolbar-background {
+    background: #1d1c1c;
+>>>>>>> 8be2d2a... Navbar ios bug fixed
     color: #fff !important;
 }
 
-.toolbar-title-ios {
+.toolbar-title {
     color: #32db64;
     color: #fff !important;
 }
 
-.bar-button-default-ios {
+.bar-button-default {
     color: #fff;
 }
 
+<<<<<<< HEAD
 .header-ios .toolbar-background-ios,
 .footer-ios .toolbar-background-ios {
     border-color: #212121;
+=======
+.header .toolbar-background,
+.footer .toolbar-background {
+    border-color: #1d1c1c;
+>>>>>>> 8be2d2a... Navbar ios bug fixed
 }
 
-.toolbar-title-ios {
+.toolbar-title {
     font-weight: 100;
 }
