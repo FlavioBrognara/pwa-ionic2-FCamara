@@ -17,13 +17,17 @@
     background: #212121;
 =======
 .toolbar-background {
+<<<<<<< HEAD
     background: #1d1c1c;
 >>>>>>> 8be2d2a... Navbar ios bug fixed
+=======
+    background: #eb7b27;
+>>>>>>> bfb1be7... Fcamara color fixed
     color: #fff !important;
 }
 
 .toolbar-title {
-    color: #32db64;
+    color: #eb7b27;
     color: #fff !important;
 }
 
@@ -38,8 +42,12 @@
 =======
 .header .toolbar-background,
 .footer .toolbar-background {
+<<<<<<< HEAD
     border-color: #1d1c1c;
 >>>>>>> 8be2d2a... Navbar ios bug fixed
+=======
+    border-color: #eb7b27;
+>>>>>>> bfb1be7... Fcamara color fixed
 }
 
 .toolbar-title {
@@ -47,5 +55,5 @@
 }
 
 .button-clear {
-    color: #32db64;
+    color: #eb7b27;
 }
