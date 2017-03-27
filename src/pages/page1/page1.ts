@@ -5,6 +5,8 @@ import { Camera } from 'ionic-native';
 
 
 
+import { Camera } from 'ionic-native';
+
 @Component({
   selector: 'page-page1',
   templateUrl: 'page1.html'
@@ -20,6 +22,7 @@ export class Page1 {
     }
 
  takePicture(){
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     Camera.getPicture({
@@ -44,6 +47,11 @@ export class Page1 {
         destinationType: Camera.DestinationType.DATA_URL,
         sourceType: Camera.PictureSourceType.CAMERA,
 >>>>>>> 79e48d1... Cards camera loop working and splash screen
+=======
+    Camera.getPicture({
+        destinationType: Camera.DestinationType.DATA_URL,
+        sourceType: Camera.PictureSourceType.CAMERA,
+>>>>>>> d38843b... firebase deploy
         quality: 100
 >>>>>>> f5c5ae2... Camear style modified
     }).then((imageData) => {

@@ -8,6 +8,22 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { CameraTestePage } from './../pages/camera-teste/camera-teste';
 
+<<<<<<< HEAD
+=======
+// import { Camera } from '@ionic-native/camera';
+
+// export class CameraMock extends Camera {
+//   getPicture(options) {
+//     console.log(JSON.stringify(options))
+//     let string = JSON.stringify(options)
+//     let Base64 = btoa(string)
+//     return new Promise((resolve, reject) => {
+//       resolve(Base64);
+//     })
+//   }
+// }
+
+>>>>>>> d38843b... firebase deploy
 @NgModule({
   declarations: [
     MyApp,
@@ -28,6 +44,10 @@ import { CameraTestePage } from './../pages/camera-teste/camera-teste';
   providers: [
     StatusBar,
     SplashScreen,
+<<<<<<< HEAD
+=======
+    // {provide: Camera, useClass: CameraMock},
+>>>>>>> d38843b... firebase deploy
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
