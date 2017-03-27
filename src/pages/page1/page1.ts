@@ -1,6 +1,6 @@
+import { CameraMock } from './../../app/app.module';
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { Camera } from 'ionic-native';
 import { CameraTestePage } from '../camera-teste/camera-teste';
 
 
@@ -20,12 +20,19 @@ export class Page1 {
     }
 
  takePicture(){
+<<<<<<< HEAD
     Camera.getPicture({
         destinationType: Camera.DestinationType.DATA_URL,
 <<<<<<< HEAD
         targetWidth: 1000,
         targetHeight: 1000
 =======
+=======
+    CameraMock.getPicture({
+        destinationType: CameraMock.DestinationType.DATA_URL,
+        sourceType: CameraMock.PictureSourceType.CAMERA,
+        quality: 100,
+>>>>>>> d557aec... ta funcionando, naquelas
         targetWidth: 540,
         targetHeight: 380
 >>>>>>> 2986890... testando signle page
