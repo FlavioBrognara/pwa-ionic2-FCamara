@@ -1,7 +1,8 @@
-import { CameraMock } from './../../app/app.module';
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { CameraTestePage } from '../camera-teste/camera-teste';
+
+import { Camera } from 'ionic-native';
+
 
 
 @Component({
@@ -15,11 +16,11 @@ export class Page1 {
 
   constructor(
     public navCtrl: NavController,
-    public navParams: NavParams){
-      this.page1 = CameraTestePage;
+    public navParams: NavParams){d
     }
 
  takePicture(){
+<<<<<<< HEAD
 <<<<<<< HEAD
     Camera.getPicture({
         destinationType: Camera.DestinationType.DATA_URL,
@@ -38,6 +39,11 @@ export class Page1 {
         targetHeight: 380
 >>>>>>> 2986890... testando signle page
 =======
+=======
+    Camera.getPicture({
+        destinationType: Camera.DestinationType.DATA_URL,
+        sourceType: Camera.PictureSourceType.CAMERA,
+>>>>>>> 79e48d1... Cards camera loop working and splash screen
         quality: 100
 >>>>>>> f5c5ae2... Camear style modified
     }).then((imageData) => {
