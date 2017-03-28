@@ -45,9 +45,12 @@ import { CameraTestePage } from './../pages/camera-teste/camera-teste';
     StatusBar,
     SplashScreen,
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     // {provide: Camera, useClass: CameraMock},
 >>>>>>> d38843b... firebase deploy
+=======
+>>>>>>> b496968... camera funcionando
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
