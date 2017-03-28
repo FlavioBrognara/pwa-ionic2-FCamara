@@ -15,6 +15,7 @@ export class CameraTestePage {
     public navCtrl: NavController,
     public navParams: NavParams){}
     
+<<<<<<< HEAD
 
 <<<<<<< HEAD
  takePicture(){
@@ -60,4 +61,7 @@ export class CameraTestePage {
   }
   var n = new Notification(titulo,opcoes);
 }
+=======
+>>>>>>> 694a257... Notifications working
 }
+
