@@ -1,8 +1,12 @@
 {
   "hosting": {
+<<<<<<< HEAD
     "public": "./platforms/browser/www"
   },
   "database": {
     "rules": "database.rules.json"
+=======
+    "public": "./www"
+>>>>>>> 0fa23c6... first commit
   }
 }

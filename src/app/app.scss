@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // http://ionicframework.com/docs/v2/theming/
 // App Global Sass
 // --------------------------------------------------
@@ -23,6 +24,10 @@
 =======
     background: #eb7b27;
 >>>>>>> bfb1be7... Fcamara color fixed
+=======
+.toolbar-background {
+    background: #eb7b27;
+>>>>>>> 0fa23c6... first commit
     color: #fff !important;
 }
 
@@ -36,6 +41,7 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .header-ios .toolbar-background-ios,
 .footer-ios .toolbar-background-ios {
     border-color: #212121;
@@ -48,6 +54,11 @@
 =======
     border-color: #eb7b27;
 >>>>>>> bfb1be7... Fcamara color fixed
+=======
+.header .toolbar-background,
+.footer .toolbar-background {
+    border-color: #eb7b27;
+>>>>>>> 0fa23c6... first commit
 }
 
 .toolbar-title {

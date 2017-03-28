@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "ionic-hello-world",
+=======
+  "name": "ionic-pwa-poc",
+>>>>>>> 0fa23c6... first commit
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
   "private": true,
@@ -10,6 +14,7 @@
     "ionic:serve": "ionic-app-scripts serve"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@angular/common": "4.0.1",
     "@angular/compiler": "4.0.1",
     "@angular/compiler-cli": "4.0.1",
@@ -25,23 +30,56 @@
     "ionicons": "3.0.0",
     "lodash": "^4.17.4",
     "moment": "^2.18.0",
+=======
+    "@angular/common": "4.0.0",
+    "@angular/compiler": "4.0.0",
+    "@angular/compiler-cli": "4.0.0",
+    "@angular/core": "4.0.0",
+    "@angular/forms": "4.0.0",
+    "@angular/http": "4.0.0",
+    "@angular/platform-browser": "4.0.0",
+    "@angular/platform-browser-dynamic": "4.0.0",
+    "@angular/platform-server": "4.0.0",
+    "@ionic-native/camera": "^3.2.4",
+    "@ionic-native/core": "3.3.0",
+    "@ionic-native/splash-screen": "3.3.0",
+    "@ionic-native/status-bar": "3.3.0",
+    "@ionic/storage": "2.0.1",
+    "express": "^4.15.2",
+    "ionic-angular": "2.3.0",
+    "ionic-native": "^2.9.0",
+    "ionicons": "3.0.0",
+>>>>>>> 0fa23c6... first commit
     "rxjs": "5.2.0",
     "sw-toolbox": "3.6.0",
     "zone.js": "0.8.5"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@ionic/app-scripts": "1.2.5",
     "@types/lodash": "^4.14.55",
+=======
+    "@ionic/app-scripts": "1.2.2",
+>>>>>>> 0fa23c6... first commit
     "typescript": "2.2.2"
   },
   "cordovaPlugins": [
     "cordova-plugin-whitelist",
+<<<<<<< HEAD
     "cordova-plugin-console",
     "cordova-plugin-statusbar",
+=======
+    "cordova-plugin-statusbar",
+    "cordova-plugin-console",
+>>>>>>> 0fa23c6... first commit
     "cordova-plugin-device",
     "cordova-plugin-splashscreen",
     "ionic-plugin-keyboard"
   ],
   "cordovaPlatforms": [],
+<<<<<<< HEAD
   "description": "elite-schedule-app: An Ionic project"
+=======
+  "description": "pwa-reddit: An Ionic project"
+>>>>>>> 0fa23c6... first commit
 }

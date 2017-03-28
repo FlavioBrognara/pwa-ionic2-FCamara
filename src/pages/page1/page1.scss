@@ -1,1 +1,17 @@
+<<<<<<< HEAD
 page-page1 {}
+=======
+page-page1 {
+    video {
+        width: calc(100% - 5px);
+        height: 30%;
+    }
+    canvas {
+        width: calc(100% - 5px);
+        height: 30%;
+    }
+    ion-icon {
+        font-size: 2.4em;
+    }
+}
+>>>>>>> 0fa23c6... first commit

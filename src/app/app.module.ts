@@ -9,6 +9,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { CameraTestePage } from './../pages/camera-teste/camera-teste';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 // import { Camera } from '@ionic-native/camera';
 
@@ -24,6 +25,9 @@ import { CameraTestePage } from './../pages/camera-teste/camera-teste';
 // }
 
 >>>>>>> d38843b... firebase deploy
+=======
+
+>>>>>>> 0fa23c6... first commit
 @NgModule({
   declarations: [
     MyApp,
@@ -46,11 +50,14 @@ import { CameraTestePage } from './../pages/camera-teste/camera-teste';
     SplashScreen,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     // {provide: Camera, useClass: CameraMock},
 >>>>>>> d38843b... firebase deploy
 =======
 >>>>>>> b496968... camera funcionando
+=======
+>>>>>>> 0fa23c6... first commit
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
