@@ -1,8 +1,8 @@
-<<<<<<< HEAD
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
 
+<<<<<<< HEAD
 
 
 import { Camera } from 'ionic-native';
@@ -11,6 +11,8 @@ import { Camera } from 'ionic-native';
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 >>>>>>> 0fa23c6... first commit
+=======
+>>>>>>> 926c7f0... Correct
 @Component({
   selector: 'page-page1',
   templateUrl: 'page1.html'
@@ -19,11 +21,16 @@ export class Page1 {
   public images: string[] = [];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   public page1: any;
 =======
   public cards: string[] = [];
 >>>>>>> b496968... camera funcionando
 
+=======
+  public cards: string[] = [];
+  
+>>>>>>> 926c7f0... Correct
   @ViewChild('video') video:ElementRef;
   @ViewChild('canvas') canvas:ElementRef;
 
@@ -110,6 +117,7 @@ export class Page1 {
 >>>>>>> d73bffb... refactor: using viewchild to get elements
   }
 
+<<<<<<< HEAD
 }
 
 =======
@@ -141,3 +149,6 @@ export class Page1 {
   }
 }
 >>>>>>> 0fa23c6... first commit
+=======
+}
+>>>>>>> 926c7f0... Correct

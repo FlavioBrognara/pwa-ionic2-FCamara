@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-<<<<<<< HEAD
-import { Camera } from 'ionic-native';
 
+<<<<<<< HEAD
 =======
 
 declare var Notification: any;
 >>>>>>> 0fa23c6... first commit
+=======
+declare var Notification: any;
+>>>>>>> 926c7f0... Correct
 
 @Component({
   selector: 'page-camera-teste',

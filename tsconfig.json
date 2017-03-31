@@ -11,11 +11,11 @@
     "module": "es2015",
     "moduleResolution": "node",
     "sourceMap": true,
-<<<<<<< HEAD
-    "target": "es5"
-=======
     "target": "es6"
+<<<<<<< HEAD
 >>>>>>> 0fa23c6... first commit
+=======
+>>>>>>> 926c7f0... Correct
   },
   "include": [
     "src/**/*.ts"
